@@ -1,0 +1,113 @@
+@import 'color';
+$btnhover: #766cf1;
+
+.card{
+  width: 450px;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 20px 30px $blue-desaturated;
+
+  &__background img{
+    width: 100%;
+  }
+
+  &__title{
+    margin-top: 3rem;
+    color: $blue-dark;
+    font-weight: 900;
+  }
+
+  &__description{
+    color: $blue-desaturated;
+    padding: 1.25rem 4rem;
+  }
+
+  &__plan{
+    background-color: $blue-very-pale;
+    border-radius: 10px;
+    margin: 0 3rem;
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+  }
+
+  &__price-plan{
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__price-title{
+    font-weight: 900;
+    color: $blue-dark;
+  }
+
+  &__price-amount{
+    color: $blue-desaturated;
+  }
+
+  &__change{
+    margin-left: auto;
+    font-weight: 900;
+    color: $blue-bright;
+
+    &:hover{
+      color: $btnhover;
+    }
+  }
+
+  &__button{
+    margin: 2rem 3rem;
+    display: block;
+    border: none;
+    background-color: $blue-bright;
+    border-radius: 10px;
+    color: white;
+    font: inherit;
+    padding: 1rem;
+    cursor: pointer;
+    box-shadow: 0 10px 20px 20px $blue-pale;
+
+    &:hover{
+      background-color: $btnhover;
+    }
+  }
+
+  &__cancel{
+    text-decoration: none;
+    font-weight:900;
+    color: $blue-desaturated;
+    display: block;
+    margin-bottom: 3rem;
+
+    &:hover{
+      color: $blue-dark;
+    }
+  }
+}
+
+@media screen and (max-width: 480px){
+  .card{
+    width: 327px;
+
+    &__title{
+      margin-top: 2rem;
+    }
+
+    &__description{
+      padding: 1rem 2.5rem;
+    }
+
+    &__plan{
+      padding: 1rem;
+      font-size: 10px;
+    }
+
+    &__cancel{
+      margin-bottom: 2rem;
+    }
+  }
+}
