@@ -65,7 +65,7 @@ I want to improve my skills and able to complete future project in timely manner
 
 ## Author
 
-- Website - [@] [add your name here](https://www.your-site.com)
+- Website - [fairulazmin](https://fairulazmin.github.io/order-summary-component/)
 - Frontend Mentor - [@fairulazmin](https://www.frontendmentor.io/profile/yourusername)
 
 ## Acknowledgments
