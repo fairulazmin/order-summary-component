@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/fairulazmin/order-summary-component)
+- Live Site URL: [Add live site URL here](https://fairulazmin.github.io/order-summary-component/)
 
 ## My process
 
@@ -55,11 +55,11 @@ I want to improve my skills and able to complete future project in timely manner
 
 ### Useful resources
 
-(How to use SVGs in React)[https://blog.logrocket.com/how-to-use-svgs-in-react/]
+[How to use SVGs in React](https://blog.logrocket.com/how-to-use-svgs-in-react/)
 
 - This help me to use svg
 
-(Adding Sass to Create React App)[https://www.youtube.com/watch?v=Q-0P6jnGtvY&t=103s&ab_channel=DigitalOcean]
+[Adding Sass to Create React App](https://www.youtube.com/watch?v=Q-0P6jnGtvY&t=103s&ab_channel=DigitalOcean)
 
 - This help me to use scss in react
 
@@ -70,4 +70,4 @@ I want to improve my skills and able to complete future project in timely manner
 
 ## Acknowledgments
 
-This is my first project on Frontend Mentor. Any comment, suggestion, advise is very much appreciated.
+This is my first project on Frontend Mentor.
